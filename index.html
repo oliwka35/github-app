@@ -1,0 +1,44 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <meta http-equiv="X-UA-Compatible" content="ie=edge">
+  <link rel="stylesheet" href="style.css">
+
+
+<link href="https://fonts.googleapis.com/css?family=Open+Sans:300,400" rel="stylesheet">  <link rel="stylesheet" href="https://use.fontawesome.com/releases/v5.0.10/css/all.css" integrity="sha384-+d0P83n9kaQMCwj8F4RJB66tzIwOKmrdb46+porD/OvrJ+37WqIM7UoBtwHO6Nlg" crossorigin="anonymous">
+  <title>Github Errors</title>
+</head>
+<body>
+  <header>
+  <h1><i class="fab fa-github"></i> See your errors</h1>
+  </header>
+  <div class="wrapper">
+    <div class="quote">
+      <p>"A man of genius makes no mistakes.</p><p> His errors are volitional and are the portals of discovery."<p>
+      <p class="author">James Joyce</p>
+    </div>
+    <form>
+      <div>
+       <label for="username"></label>
+       <input id="searchUser" type="text" name="username" placeholder="Username">
+     </div>
+     <div>
+      <select id="selectRepo">
+        <option value="" hidden>Select a repository</option>
+
+        </select>
+    </div>
+    <button id="search" type="button" name="button">Search</button>
+    </form>
+  </div>
+  <div id="issues">
+  </div>
+  <script
+  src="https://code.jquery.com/jquery-3.3.1.js"
+  integrity="sha256-2Kok7MbOyxpgUVvAk/HJ2jigOSYS2auK4Pfzbm7uH60="
+  crossorigin="anonymous"></script>
+  <script src="app.js">  </script>
+</body>
+</html>
